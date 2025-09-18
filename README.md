@@ -34,8 +34,8 @@ DELETE	 /api/candidates/{id}	   Delete a candidate
 
 Request Example (POST /api/candidates):
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Naveen",
+  "email": "naveen@gmail.com",
   "phone_number": "1234567890",
   "current_status": "Applied",
   "resume_link": "http://example.com/resume.pdf"
@@ -44,21 +44,12 @@ Request Example (POST /api/candidates):
 Response Example:
 {
   "id": 1,
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "Naveen",
+  "email": "naveen@gmail.com",
   "phone_number": "1234567890",
   "current_status": "Applied",
   "resume_link": "http://example.com/resume.pdf"
 }
-
-Testing:
-  Backend Tests (FastAPI + Pytest):
-    Example test file: backend/test_main.py
-    Run: pytest backend/test_main.py
-
-  Frontend Tests (React + Vitest / React Testing Library):
-    Example test file: frontend/src/components/CandidateForm.test.jsx
-    Run: npm run test
 
 Project Features:
 
@@ -71,3 +62,4 @@ API documentation via Swagger UI
 Unit tests for backend and frontend
 
 CORS enabled for frontend-backend communication
+
